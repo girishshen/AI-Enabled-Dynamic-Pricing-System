@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Dynamic Pricing System</title>
+  <!--link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" /-->
+  <link rel="stylesheet" href="../static/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title" data-testid="app-title">AI‑Enabled Dynamic Pricing</h1>
+      <p class="site-subtitle">Predict optimal prices using Linear Regression</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card" data-testid="pricing-form-card">
+      <h2>Product & Market Inputs</h2>
+      <form id="pricing-form" data-testid="pricing-form">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="category">Category</label>
+            <select id="category" name="category" required data-testid="input-category">
+              <option value="Electronics" selected>Electronics</option>
+              <option value="Clothing">Clothing</option>
+              <option value="Home Appliances">Home Appliances</option>
+              <option value="Beauty">Beauty</option>
+              <option value="Books ">Books</option>
+              <option value="Sports">Sports</option>
+              <option value="Toys">Toys</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="current_price">Current Price</label>
+            <input id="current_price" name="current_price" type="number" step="0.01" min="0" placeholder="e.g., 49.99" required data-testid="input-current-price" />
+          </div>
+
+          <div class="form-group">
+            <label for="competitor_price">Competitor Price</label>
+            <input id="competitor_price" name="competitor_price" type="number" step="0.01" min="0" placeholder="e.g., 44.99" required data-testid="input-competitor-price" />
+          </div>
+
+          <div class="form-group">
+            <label for="demand_level">Demand Level</label>
+            <select id="demand_level" name="demand_level" required data-testid="input-demand-level">
+              <option>Low</option>
+              <option selected>Medium</option>
+              <option>High</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="season">Season</label>
+            <select id="season" name="season" required data-testid="input-season">
+              <option>Spring</option>
+              <option selected>Summer</option>
+              <option>Autumn</option>
+              <option>Festival</option>
+              <option>Monsoon</option>
+              <option>Winter</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="day_of_week">Day of Week</label>
+            <select id="day_of_week" name="day_of_week" required data-testid="input-day-of-week">
+              <option>Monday</option>
+              <option>Tuesday</option>
+              <option>Wednesday</option>
+              <option>Thursday</option>
+              <option>Friday</option>
+              <option>Saturday</option>
+              <option>Sunday</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="stock">Stock</label>
+            <input id="stock" name="stock" type="number" step="1" min="0" placeholder="e.g., 120" required data-testid="input-stock" />
+          </div>
+        </div>
+
+        <div class="actions">
+          <button id="submit-btn" type="submit" class="btn" data-testid="predict-submit-button">Predict Price</button>
+        </div>
+
+        <div id="loading" class="loading hidden" aria-live="polite" data-testid="loading-indicator">
+          <span class="spinner" aria-hidden="true"></span>
+          <span>Calculating predictions…</span>
+        </div>
+
+        <div id="error-box" class="alert hidden" role="alert" data-testid="error-box"></div>
+      </form>
+    </section>
+
+    <section id="predictions" class="card hidden" data-testid="predictions-card" aria-live="polite">
+      <h2>Model Prediction</h2>
+
+      <div class="display-controls">
+        <label for="display-format" class="display-label">Display as:</label>
+        <select id="display-format" data-testid="display-format-select">
+          <option value="usd" selected>USD ($)</option>
+          <option value="inr">INR (₹)</option>
+          <option value="words-intl">Words (International)</option>
+          <option value="words-indian">Words (Indian)</option>
+        </select>
+        <small class="note">Fast switch is cached locally; server syncs periodically.</small>
+      </div>
+
+      <div class="predictions-grid">
+        <div class="prediction-box" data-testid="linear-regression-box">
+          <h3>Linear Regression</h3>
+          <div class="prediction-value" id="linear-value" data-testid="linear-regression-value" role="status">—</div>
+          <div class="note" style="margin-top:6px" data-testid="response-time">Response time: <span id="response-time">—</span> ms • <span id="display-source" data-testid="display-source">server</span></div>
+        </div>
+      </div>
+      <p class="note" data-testid="prediction-note">Server formats the value; switch the selector and we re-fetch periodically to keep in sync.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small data-testid="footer-text">© <span id="year"></span> Dynamic Pricing System</small>
+    </div>
+  </footer>
+
+  <!--script-- src="{{ url_for('static', filename='script.js') }}"></script-->
+  <script src="../static/script.js"></script>
+</body>
+</html>

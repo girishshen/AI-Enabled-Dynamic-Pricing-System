@@ -1,0 +1,63 @@
+timestamp,category,current_price,competitor_price,demand_level,season,day_of_week,stock,linear_regression
+2025-09-28T07:26:09.364557,Electronics,1200.0,1100.0,High,Summer,Friday,50,315264.98
+2025-09-28T07:31:52.339064,Electronics,1200.0,1100.0,High,Summer,Friday,50,315264.98
+2025-09-28T07:31:53.598300,Electronics,1200.0,1100.0,High,Summer,Friday,50,315264.98
+2025-09-28T07:32:13.994033,Electronics,1200.0,1100.0,High,Summer,Friday,50,315264.98
+2025-09-28T07:39:01.679732,Electronics,1200.0,1100.0,High,Summer,Friday,50,315264.98
+2025-09-28T08:02:19.752369,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,315264.98,"$315,264.98",USD
+2025-09-28T08:02:23.878495,Electronics,1200.0,1100.0,High,Summer,Friday,50,inr,315264.98,"₹2,61,66,993.02",INR
+2025-09-28T08:02:28.903853,Electronics,1200.0,1100.0,High,Summer,Friday,50,words-intl,315264.98,three hundred fifteen thousand two hundred sixty-four and 98/100,USD
+2025-09-28T08:02:35.392760,Electronics,1200.0,1100.0,High,Summer,Friday,50,words-indian,315264.98,two crore sixty-one lakh sixty-six thousand nine hundred ninety-three and 02/100,INR
+2025-09-28T08:02:48.930491,Electronics,1200.0,1100.0,High,Summer,Friday,50,inr,315264.98,"₹2,61,66,993.02",INR
+2025-09-28T08:02:53.626768,Electronics,1200.0,1100.0,High,Summer,Friday,50,words-indian,315264.98,two crore sixty-one lakh sixty-six thousand nine hundred ninety-three and 02/100,INR
+2025-09-28T08:07:46.283743,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,315264.98,"$315,264.98",USD
+2025-09-28T08:08:28.194152,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,315264.98,"$315,264.98",USD
+2025-09-28T08:09:28.189628,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,315264.98,"$315,264.98",USD
+2025-09-28T08:10:28.192318,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,315264.98,"$315,264.98",USD
+2025-09-28T08:11:28.182145,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,315264.98,"$315,264.98",USD
+2025-09-28T08:12:22.851747,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,315264.98,"$315,264.98",USD
+2025-09-28T08:12:27.556134,Electronics,1200.0,1100.0,High,Summer,Friday,50,inr,315264.98,"₹2,61,66,993.02",INR
+2025-09-28T08:13:08.190821,Electronics,1200.0,1100.0,High,Summer,Friday,50,inr,315264.98,"₹2,61,66,993.02",INR
+2025-09-28T08:13:55.161371,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,315264.98,"$315,264.98",USD
+2025-09-28T08:14:27.828365,Electronics,1200.0,1100.0,High,Summer,Friday,50,inr,315264.98,"₹2,61,66,993.02",INR
+2025-09-28T08:14:30.161912,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,315264.98,"$315,264.98",USD
+2025-09-28T08:14:31.877913,Electronics,1200.0,1100.0,High,Summer,Friday,50,words-intl,315264.98,three hundred fifteen thousand two hundred sixty-four and 98/100,USD
+2025-09-28T08:14:45.193686,Electronics,1200.0,1100.0,High,Summer,Friday,50,words-intl,315264.98,three hundred fifteen thousand two hundred sixty-four and 98/100,USD
+2025-09-28T08:15:45.196817,Electronics,1200.0,1100.0,High,Summer,Friday,50,words-intl,315264.98,three hundred fifteen thousand two hundred sixty-four and 98/100,USD
+2025-09-28T08:16:45.182132,Electronics,1200.0,1100.0,High,Summer,Friday,50,words-intl,315264.98,three hundred fifteen thousand two hundred sixty-four and 98/100,USD
+2025-09-28T08:17:25.187266,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,315264.98,"$315,264.98",USD
+2025-09-28T08:34:42.013961,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,315264.98,"$315,264.98",USD
+2025-09-28T08:35:29.907209,Electronics,1200.0,1100.0,High,Summer,Friday,50,inr,315264.98,"₹2,61,66,993.02",INR
+2025-09-28T08:35:30.276980,Electronics,1200.0,1100.0,High,Summer,Friday,50,inr,315264.98,"₹2,61,66,993.02",INR
+2025-09-28T08:35:33.411318,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,315264.98,"$315,264.98",USD
+2025-09-28T08:35:35.962449,Electronics,1200.0,1100.0,High,Summer,Friday,50,words-intl,315264.98,three hundred fifteen thousand two hundred sixty-four and 98/100,USD
+2025-09-28T08:36:32.032352,Electronics,1200.0,1100.0,High,Summer,Friday,50,words-intl,315264.98,three hundred fifteen thousand two hundred sixty-four and 98/100,USD,858.5
+2025-09-28T08:37:31.185152,Electronics,1200.0,1100.0,High,Summer,Friday,50,words-intl,315264.98,three hundred fifteen thousand two hundred sixty-four and 98/100,USD,6.8
+2025-09-28T08:38:07.989215,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,315264.98,"$315,264.98",USD,912.8
+2025-09-28T08:38:11.336860,Electronics,1200.0,1100.0,High,Summer,Friday,50,inr,315264.98,"₹2,61,66,993.02",INR,3.7
+2025-09-28T09:12:50.717450,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,301430.86,"$301,430.86",USD,1768.4
+2025-09-28T09:12:56.533857,Electronics,1200.0,1100.0,High,Summer,Friday,50,inr,301430.86,"₹2,50,18,761.19",INR,6.1
+2025-09-28T09:13:03.156318,Electronics,1200.0,1100.0,High,Summer,Friday,50,words-indian,301430.86,two crore fifty lakh eighteen thousand seven hundred sixty-one and 19/100,INR,5.5
+2025-09-30T10:07:03.937781,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,301430.86,"$301,430.86",USD,2520.7
+2025-09-30T10:07:11.053380,Electronics,1200.0,1100.0,High,Summer,Friday,50,inr,301430.86,"₹2,50,18,761.19",INR,6.3
+2025-09-30T10:07:15.204021,Electronics,1200.0,1100.0,High,Summer,Friday,50,words-intl,301430.86,three hundred one thousand four hundred thirty and 86/100,USD,6.0
+2025-09-30T10:07:17.103091,Electronics,1200.0,1100.0,High,Summer,Friday,50,words-indian,301430.86,two crore fifty lakh eighteen thousand seven hundred sixty-one and 19/100,INR,6.6
+2025-10-01T05:02:57.215707,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,301430.86,"$301,430.86",USD,2854.9
+2025-10-01T05:03:05.504104,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,301430.86,"$301,430.86",USD,6.1
+2025-10-01T05:03:08.156000,Electronics,1200.0,1100.0,High,Summer,Friday,50,inr,301430.86,"₹2,50,18,761.19",INR,5.6
+2025-10-01T05:03:10.356917,Electronics,1200.0,1100.0,High,Summer,Friday,50,words-intl,301430.86,three hundred one thousand four hundred thirty and 86/100,USD,5.8
+2025-10-01T05:32:36.612286,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,301430.85766310827
+2025-10-01T05:32:36.644487,Clothing,240.0,250.0,Medium,Spring,Tuesday,200,usd,67432.79209623451
+2025-10-01T05:32:36.676875,Home Appliances,15000.0,14000.0,Low,Winter,Monday,5,usd,3862504.5777323986
+2025-10-01T05:33:56.501427,Electronics,1200.0,1100.0,High,Summer,Friday,50,usd,301430.85766310827
+2025-10-01T05:33:56.544104,Clothing,240.0,250.0,Medium,Spring,Tuesday,200,usd,67432.79209623451
+2025-10-01T05:33:56.586889,Home Appliances,15000.0,14000.0,Low,Winter,Monday,5,usd,3862504.5777323986
+2025-10-01T06:55:45.166347,Electronics,1200.0,1100.0,High,Winter,Saturday,50,usd,302948.74,"$302,948.74",USD,2565.7
+2025-10-01T06:55:49.757362,Electronics,1200.0,1100.0,High,Winter,Saturday,50,inr,302948.74,"₹2,51,44,745.56",INR,6.2
+2025-10-01T06:55:52.232850,Electronics,1200.0,1100.0,High,Winter,Saturday,50,words-intl,302948.74,three hundred two thousand nine hundred forty-eight and 74/100,USD,5.7
+2025-10-01T06:55:57.847616,Electronics,1200.0,1100.0,High,Winter,Saturday,50,words-indian,302948.74,two crore fifty-one lakh forty-four thousand seven hundred forty-five and 56/100,INR,4.7
+2025-10-01T06:56:06.154308,Electronics,1200.0,1100.0,High,Winter,Saturday,50,words-indian,302948.74,two crore fifty-one lakh forty-four thousand seven hundred forty-five and 56/100,INR,6.0
+2025-10-01T06:57:06.194559,Electronics,1200.0,1100.0,High,Winter,Saturday,50,words-indian,302948.74,two crore fifty-one lakh forty-four thousand seven hundred forty-five and 56/100,INR,7.5
+2025-10-01T06:58:06.192876,Electronics,1200.0,1100.0,High,Winter,Saturday,50,words-indian,302948.74,two crore fifty-one lakh forty-four thousand seven hundred forty-five and 56/100,INR,11.8
+2025-10-01T06:59:06.187975,Electronics,1200.0,1100.0,High,Winter,Saturday,50,words-indian,302948.74,two crore fifty-one lakh forty-four thousand seven hundred forty-five and 56/100,INR,5.5
+2025-10-01T07:00:06.180858,Electronics,1200.0,1100.0,High,Winter,Saturday,50,words-indian,302948.74,two crore fifty-one lakh forty-four thousand seven hundred forty-five and 56/100,INR,5.6
