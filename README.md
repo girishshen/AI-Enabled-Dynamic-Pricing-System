@@ -5,6 +5,8 @@ Small Flask-based dynamic pricing demo that exposes a profit prediction pipeline
 This repository contains the web app and utilities to parse incoming payloads, engineer features, apply the 
 preprocessor (if present), run the model, format output values (USD/INR), and persist prediction logs.
 
+🌐 Check the project out here: https://dynamic-pricing-system-q546.onrender.com/
+
 ---
 
 ## Project layout
@@ -16,6 +18,7 @@ DynamicPricingSystem/
 ├── requirements.txt # (project dependencies)
 
 ├── routes/
+
 │     ├── init.py # blueprint registration
 
 │     ├── main_routes.py # flask endpoints (prediction, UI)
@@ -29,6 +32,7 @@ DynamicPricingSystem/
 │     └── preprocessor.pkl # optional preprocessor (e.g. ColumnTransformer) — may or may not be present
 
 ├── data_entries/
+
 │       └── prediction_log.csv # model request + response log (app appends here)
 
 ├── static/
@@ -36,6 +40,7 @@ DynamicPricingSystem/
 ├── templates/
 
 └── tests/
+
       └── test_predictions.py # (not included by default) test script to exercise predictions
 
 
@@ -45,7 +50,8 @@ DynamicPricingSystem/
 
 ## Key components
 
-- `routes/utils.py`  
+- `routes/utils.py`
+  
   - `ModelLoader` — thread-safe lazy loader for `LinearReg.pkl` and optional `preprocessor.pkl`. Use the singleton `model_loader` instance to get artifacts.  
   
   - `parse_input` — validates and normalizes incoming payloads.  
@@ -90,4 +96,5 @@ models/LinearReg.pkl must exist.
 models/preprocessor.pkl is optional. If missing, the code will try to run on engineered features (the utils include handling to align/pad features).
 
 Run the app locally: python app.py
+
 # App will start on: http://127.0.0.1:5000
